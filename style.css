@@ -54,9 +54,9 @@ h2 {
     background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
 }
 
-/* ~ This will style the image of what the box model looks like using the inspect tool */
+/* ~ This will style the image of the box model */
 .img-the-box-model {
-    width: 90%;
+    width: 50%;
     border: 5px solid #d5ffc0;
     padding: 10px;
     margin: 10px;
@@ -66,6 +66,14 @@ h2 {
 li::marker {
     font-size: 1.4em;
     color: #f6e;
+}
+
+/* ~ This will style the image of what the box model looks like using the inspect tool */
+.img-the-box-model-inspect-tool {
+    width: 90%;
+    border: 5px solid #d5ffc0;
+    padding: 10px;
+    margin: 10px;
 }
 
 /* & This will style the footer section of the webpage */
