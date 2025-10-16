@@ -26,6 +26,8 @@ body {
 .img-heading {
     width: 250px;
     height: 350px;
+    border: 5px solid #d5ffc0;
+    padding: 10px;
 }
 
 /* ~ This will style the h1 element */
