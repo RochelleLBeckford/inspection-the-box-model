@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- & Title of the Webpage -->
+    <title>Inspection</title>
+    <!-- & Link to the .css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- & Header
+    ~ The space near the tip of the webpage that will make it easier to understnad and navigate
+    -->
+    <header class="flex-container">
+        <!-- & Figure
+        ~ Usually a graphic, image, or a diagram
+        ~ It can also house more than one image
+        -->
+        <figure>
+            <img
+                src="img/a-cherry-blossom-branch.png"
+                alt="Cherry Blossom Branch"
+                class="img-heading"
+            >
+        </figure>
+        <h1>Inspection</h1>
+        <figure>
+            <img
+                src="img/a-cherry-blossom-branch.png"
+                alt="Cherry Blossom Branch"
+                class="img-heading"
+            >
+        </figure>
+    </header>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Main
+    ~ This is where the maib information of the webpage will go
+    -->
+    <main>
+        <!-- & Section
+        ~ This groups together similar pieces of information
+        ~ i.e. A section about understanding the box model of the inspect tool
+        -->
+        <h2># The Box Model</h2>
+        <hr class="title-divider">
+        <br>
+
+        <!-- & This section will discuss the box model -->
+        <section>
+            <ul>
+                <li>
+                    Everything on a web page is in a box. Every element on a page follows the box model:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/b-the-box-model.png"
+                                alt="The Box Model"
+                                width="300"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    The "box model" describes how an element handles its content and the space around it
+                </li>
+                <li>
+                    Every element is made of four box layers in the following order, from the innermost to the outermost:
+                    <ul>
+                        <li>
+                            A "content box" for things like text and images
+                        </li>
+                        <li>
+                            A "padding box" of space around the content
+                        </li>
+                        <li>
+                            A "border box" that goes arounnd the padding
+                        </li>
+                        <li>
+                            A "margin box" of empty space that surrounds the whole element
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    This is what the box model looks like in the browser:
+                    <ul>
+                        <li>
+                            <img
+                                src="img/c-box-model-in-the-web-browser.png"
+                                alt="The Box Model in the Web Browser"
+                                class="img-the-box-model"
+                            >
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    The elements can take different shapes and sizes, but they all follow the box model.
+                </li>
+            </ul>
+        </section>
+    </main>
+    <br>
+    <hr class="section-divider">
+    <br>
+
+    <!-- & Footer
+    ~ This is where the important information will go that is not suitable for the <header> element
+        ~ Footnotes
+        ~ Links to extended resources
+            ~ In the <a> element -> use the following for the href attribute
+                ~ href = "/privacy"
+            ~ Also use the target attribute to ope the link in a new web browser tab
+                ~ target = "_blank"
+            ~ Copyright information
+                ~ &copy; -> This is the symbol for. copyright
+    -->
+    <footer>
+        &copy; 2025 EtariaL33. All rights reserved.
+    </footer>
+</body>
+</html>

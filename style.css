@@ -1,0 +1,76 @@
+/* & This will style the font of the entire webpage */
+* {
+    font-family: "Poiret One";
+    letter-spacing: .1em;
+}
+
+/* & This will style the entire webpage */
+body {
+    /* ~ Colors inspired by my VS Code Theme */
+    background-color: #393a60;
+    color: #f5edef;
+    /* ~ This will remove the default browser spacing */
+    margin: 0;
+    padding: 0;
+}
+
+/* & This wills tyle the heading section of the webpage */
+/* ~ This will create a flex-container */
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* ~ This will style the heading images */
+.img-heading {
+    width: 250px;
+    height: 350px;
+}
+
+/* ~ This will style the h1 element */
+h1 {
+    border: 5px solid #d5ffc9;
+    padding: 10px;
+}
+
+/* ~ This will style the <hr> element -> the horizontal line or dividing line which will seperate the sections on the webpage */
+.section-divider {
+    width: 90%;
+    height: 12px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+}
+
+/* & This will style the main section of the webpage */
+/* ~ This will style the <h2> element */
+h2 {
+    text-align: center;
+}
+
+/* ~ This will style the <hr> element that will follow the title of each section */
+.title-divider {
+    width: 40%;
+    height: 12px;
+    background: linear-gradient(90deg, #d5ffc0 25%, #d17 75%)no-repeat;
+}
+
+/* ~ This will style the image of what the box model looks like using the inspect tool */
+.img-the-box-model {
+    width: 90%;
+    border: 5px solid #d5ffc0;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ~ This will style the list marker using a psuedo-element */
+li::marker {
+    font-size: 1.4em;
+    color: #f6e;
+}
+
+/* & This will style the footer section of the webpage */
+footer {
+    text-align: center;
+    bottom: 0;
+    padding-bottom: 30px;
+}
